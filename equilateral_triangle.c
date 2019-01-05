@@ -14,7 +14,7 @@ int main()
 {
     int gd = DETECT, gm;
     int x1, y1, x2, y2, x3, y3;
-    initgraph(&gd, &gm, "");
+    initgraph(&gd, &gm, NULL);
 
     printf("The coordinates of the equilateral triangle are (250, 114), (200, 200) and (300, 200) and its centroid is (250, 172)\n");
 
